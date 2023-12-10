@@ -37,6 +37,13 @@ Retrieves statistics summary for endpoints.
     - `200 OK` with endpoint statistics summary.
     - `500 Internal Server Error` if an unexpected error occurs.
 
+Statistics Example
+Make a GET request to /api/statistics to retrieve endpoint statistics summary.
+
+Notes
+Modify the connection string in the app settings file (appsettings.json) to match your environment configurations.
+This project includes a Postman collection at Secureship HTTP Client\Secureship Collection.postman_collection.json. Import this collection into Postman for easy API testing and interaction.
+Ensure proper error handling for each endpoint's response codes to effectively manage potential errors.
 ## Dependencies
 
 - AutoMapper
