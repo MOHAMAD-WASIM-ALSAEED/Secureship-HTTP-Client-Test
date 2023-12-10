@@ -48,7 +48,11 @@ Make a GET request to `/statistics` to retrieve endpoint statistics summary.
 ## Dependencies
 
 - AutoMapper
-- Microsoft.AspNetCore.Mvc
+- autoFixture
+- Moq
+- xunit
+- Swashbuckle
+- Entity framework core
 - Refit
 
 ## Usage
