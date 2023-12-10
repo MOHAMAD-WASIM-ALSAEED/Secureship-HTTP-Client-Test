@@ -5,7 +5,12 @@ VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secureship HTTP Client", "Secureship HTTP Client\Secureship HTTP Client.csproj", "{A7607A5A-C88C-4880-91DF-2900DA353B52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Secureship Http Clent Test", "Secureship Http Clent Test\Secureship Http Clent Test.csproj", "{11773C8A-395B-4395-8726-C3BE37A15D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Secureship Http Clent Test", "Secureship Http Clent Test\Secureship Http Clent Test.csproj", "{11773C8A-395B-4395-8726-C3BE37A15D52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F389EB5D-7484-4556-A60A-71BFDC5E347F}"
+	ProjectSection(SolutionItems) = preProject
+		Secureship Collection.postman_collection.json = Secureship Collection.postman_collection.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

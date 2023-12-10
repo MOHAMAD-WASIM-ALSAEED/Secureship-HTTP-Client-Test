@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "4a2ae5a4-21d4-41b9-ba98-459e72e3f95b",
+		"name": "Secureship Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28282494",
+		"_collection_link": "https://goto-health.postman.co/workspace/Goto-Health~bd54fe16-8fdd-45e6-9240-ef1d63da0c17/collection/28282494-4a2ae5a4-21d4-41b9-ba98-459e72e3f95b?action=share&source=collection_link&creator=28282494"
+	},
+	"item": [
+		{
+			"name": "convert",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Statistic",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
