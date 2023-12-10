@@ -13,7 +13,7 @@ The Currency Exchange Service within this project allows users to convert curren
 Converts USD currency based on the provided request.
 
 - **Method:** POST
-- **Route:** `/api/convert`
+- **Route:** `/convert`
 - **Request Body:**
     ```json
     {
@@ -57,7 +57,7 @@ To utilize these endpoints, ensure that the required dependencies are installed 
 
 ### Convert Currency Example
 
-Make a POST request to `/api/convert` with the JSON payload:
+Make a POST request to `/convert` with the JSON payload:
 ```json
 {
     "To": "EUR",
