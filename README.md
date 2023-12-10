@@ -31,13 +31,13 @@ Converts USD currency based on the provided request.
 Retrieves statistics summary for endpoints.
 
 - **Method:** GET
-- **Route:** `/api/statistics`
+- **Route:** `/statistics`
 - **Response:** 
     - `200 OK` with endpoint statistics summary.
     - `500 Internal Server Error` if an unexpected error occurs.
 
 **Statistics Example:**
-Make a GET request to `/api/statistics` to retrieve endpoint statistics summary.
+Make a GET request to `/statistics` to retrieve endpoint statistics summary.
 
 ## Notes
 
