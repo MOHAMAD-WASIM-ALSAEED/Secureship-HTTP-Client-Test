@@ -1,5 +1,4 @@
-# Secureship-HTTP-Client-Test
-# Project Currency Exchange Service
+# Currency Exchange Service
 
 This project facilitates currency conversion and provides statistical summaries for currency exchange endpoints.
 
@@ -14,7 +13,7 @@ The Currency Exchange Service within this project allows users to convert curren
 Converts USD currency based on the provided request.
 
 - **Method:** POST
-- **Route:** `/api/convert`
+- **Route:** `/convert`
 - **Request Body:**
     ```json
     {
@@ -32,15 +31,28 @@ Converts USD currency based on the provided request.
 Retrieves statistics summary for endpoints.
 
 - **Method:** GET
-- **Route:** `/api/statistics`
+- **Route:** `/statistics`
 - **Response:** 
     - `200 OK` with endpoint statistics summary.
     - `500 Internal Server Error` if an unexpected error occurs.
 
+**Statistics Example:**
+Make a GET request to `/statistics` to retrieve endpoint statistics summary.
+
+## Notes
+
+- Modify the connection string in the app settings file (`appsettings.json`) to match your environment configurations.
+- This project includes a Postman collection at `Secureship HTTP Client\Secureship Collection.postman_collection.json`. Import this collection into Postman for easy API testing and interaction.
+- Ensure proper error handling for each endpoint's response codes to effectively manage potential errors.
+
 ## Dependencies
 
 - AutoMapper
-- Microsoft.AspNetCore.Mvc
+- autoFixture
+- Moq
+- xunit
+- Swashbuckle
+- Entity framework core
 - Refit
 
 ## Usage
@@ -49,7 +61,7 @@ To utilize these endpoints, ensure that the required dependencies are installed 
 
 ### Convert Currency Example
 
-Make a POST request to `/api/convert` with the JSON payload:
+Make a POST request to `/convert` with the JSON payload:
 ```json
 {
     "To": "EUR",
